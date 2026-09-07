@@ -1766,16 +1766,3 @@ select:focus-visible {
     }
 
 }
-/* =====================================================
-   الشحنات - نفس حجم أعمدة الموديل والوصف
-   مثل بضاعة للشحن
-   ===================================================== */
-
-#shipmentsTable td:nth-child(4),
-#shipmentsTable td:nth-child(5) {
-    white-space: normal !important;
-    overflow-wrap: anywhere;
-    word-break: normal;
-    line-height: 1.7;
-    vertical-align: top;
-}
