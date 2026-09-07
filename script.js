@@ -2080,6 +2080,32 @@ function updateCargoDashboard() {
         formatNumber(notLoaded)
     );
 
+    // تحديث KPIs الخاصة بصفحة "بضاعة للشحن"
+setText(
+    "cargoPageTotalOrders",
+    formatNumber(totalOrders)
+);
+
+setText(
+    "cargoPageTotalQty",
+    formatNumber(totalQty)
+);
+
+setText(
+    "cargoPageTotalContainers",
+    formatNumber(totalContainers)
+);
+
+setText(
+    "cargoPageLoaded",
+    formatNumber(loaded)
+);
+
+setText(
+    "cargoPageNotLoaded",
+    formatNumber(notLoaded)
+);
+
 
     drawCargoFactoryChart(data);
 
