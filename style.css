@@ -1767,21 +1767,78 @@ select:focus-visible {
 
 }
 /* =====================================================
-   الشحنات - تصغير الوصف والموديل
+   الشحنات - تصغير الوصف والموديل + التفاف النص
    ===================================================== */
 
-#shipmentsTable th:nth-child(4),
-#shipmentsTable td:nth-child(4),
-#shipmentsTable th:nth-child(5),
-#shipmentsTable td:nth-child(5) {
-    width: 5cm !important;
-    min-width: 5cm !important;
-    max-width: 5cm !important;
+#shipmentsTable {
+    table-layout: fixed !important;
+    width: 1250px !important;
+    min-width: 1250px !important;
+}
 
+#shipmentsTable th:nth-child(1),
+#shipmentsTable td:nth-child(1) {
+    width: 80px !important;
+}
+
+#shipmentsTable th:nth-child(2),
+#shipmentsTable td:nth-child(2) {
+    width: 80px !important;
+}
+
+#shipmentsTable th:nth-child(3),
+#shipmentsTable td:nth-child(3) {
+    width: 100px !important;
+}
+
+/* الوصف */
+#shipmentsTable th:nth-child(4),
+#shipmentsTable td:nth-child(4) {
+    width: 180px !important;
     white-space: normal !important;
     overflow-wrap: anywhere !important;
-    word-break: normal !important;
-
+    word-break: break-word !important;
     line-height: 1.6;
     vertical-align: top;
+}
+
+/* الموديل */
+#shipmentsTable th:nth-child(5),
+#shipmentsTable td:nth-child(5) {
+    width: 180px !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+    line-height: 1.6;
+    vertical-align: top;
+}
+
+#shipmentsTable th:nth-child(6),
+#shipmentsTable td:nth-child(6) {
+    width: 80px !important;
+}
+
+#shipmentsTable th:nth-child(7),
+#shipmentsTable td:nth-child(7) {
+    width: 120px !important;
+}
+
+#shipmentsTable th:nth-child(8),
+#shipmentsTable td:nth-child(8) {
+    width: 120px !important;
+}
+
+#shipmentsTable th:nth-child(9),
+#shipmentsTable td:nth-child(9) {
+    width: 100px !important;
+}
+
+#shipmentsTable th:nth-child(10),
+#shipmentsTable td:nth-child(10) {
+    width: 100px !important;
+}
+
+#shipmentsTable th:nth-child(11),
+#shipmentsTable td:nth-child(11) {
+    width: 110px !important;
 }
