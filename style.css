@@ -1767,24 +1767,15 @@ select:focus-visible {
 
 }
 /* =====================================================
-   الشحنات - الوصف والموديل
-   عرض ثابت 7 سم + التفاف تلقائي
+   الشحنات - نفس حجم أعمدة الموديل والوصف
+   مثل بضاعة للشحن
    ===================================================== */
 
-#shipmentsTable .shipment-description-cell,
-#shipmentsTable .shipment-model-cell {
-    width: 7cm !important;
-    min-width: 7cm !important;
-    max-width: 7cm !important;
-    vertical-align: top !important;
+#shipmentsTable td:nth-child(4),
+#shipmentsTable td:nth-child(5) {
     white-space: normal !important;
-}
-
-#shipmentsTable .shipment-text-wrap {
-    width: 7cm !important;
-    max-width: 7cm !important;
-    white-space: normal !important;
-    overflow-wrap: anywhere !important;
-    word-break: normal !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
     line-height: 1.7;
+    vertical-align: top;
 }
