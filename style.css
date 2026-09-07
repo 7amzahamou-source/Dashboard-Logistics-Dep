@@ -1786,13 +1786,13 @@ select:focus-visible {
 /* عدد الحاويات */
 #shipmentsTable th:nth-child(2),
 #shipmentsTable td:nth-child(2) {
-    width: 80px !important;
+    width: 100px !important;
 }
 
 /* المصنع */
 #shipmentsTable th:nth-child(3),
 #shipmentsTable td:nth-child(3) {
-    width: 100px !important;
+    width: 150px !important;
 }
 
 /* الوصف */
