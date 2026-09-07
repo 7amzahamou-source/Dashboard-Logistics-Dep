@@ -1574,17 +1574,13 @@ function renderCargo() {
                             ${escapeHTML(item.department)}
                         </td>
 
-<td class="shipment-description-cell">
-    <div class="shipment-text-wrap">
-        ${escapeHTML(item.description)}
-    </div>
-</td>
+                        <td>
+                            ${escapeHTML(item.description)}
+                        </td>
 
-<td class="shipment-model-cell">
-    <div class="shipment-text-wrap">
-        ${escapeHTML(item.model)}
-    </div>
-</td>
+                        <td>
+                           ${escapeHTML(item.model)}
+                        </td>
 
                         <td>
                             ${formatNumber(item.qty)}
